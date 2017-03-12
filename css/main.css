@@ -70,11 +70,18 @@ h5, h6          { font-weight: bolder }
 }
 
 .container{
-    width: 1100px;
+  display: block;
+  text-align: center;
+    width: 1100px;;
     margin: 0 auto;
+    margin-top: 30
 }
 
 
+/* body    */
+body {
+    background-color: black;
+}
 
 
 
@@ -82,29 +89,37 @@ h5, h6          { font-weight: bolder }
 header{
     width: 100%;
     height: 90px;
-    background: #ffffff;
-    position: relative;
-}
-
-header .logo{
     margin-top: 30px;
-    float: left;
 }
 
-header nav{
-    float: right;
-    margin-top: 37px;
+
+
+
+.companyName {
+margin-top: 37px;
+font-size: 40px;
+color: white;
+letter-spacing: 5px;
 }
 
-header nav ul li{
+header .menu{
+  display: block;
+  width: 500px;
+margin: 0 auto;
+margin-top: 60px;
+
+}
+
+header .menu ul li{
     list-style: none;
     float: left;
-    margin-left: 45px;
+    margin-left: 60px;
+    color: #bbbbbb;
 }
 
-header nav ul li a{
+header .menu ul li a{
     text-decoration: none;
-    color: #5e5d5d;
+    color: #bbbbbb;
     font-family: "raleway-regular", arial;
     font-size: 14px;
     letter-spacing: .5px;
@@ -115,9 +130,9 @@ header nav ul li a{
     -webkit-transition:all .2s linear;
 }
 
-header nav ul li a:hover,
-header nav ul .selected{
-    color: #ff4242;
+header .menu ul li a:hover,
+header .menu ul .selected{
+    color: #ffffff;
 }
 
 
@@ -127,6 +142,7 @@ header nav ul .selected{
 
 /*  slider  */
 .slider_wrapper{
+  padding-top: 50px;
     width: 100%;
     height: auto;
     position: relative;
@@ -205,6 +221,7 @@ header nav ul .selected{
 .services{
     padding: 100px 0;
     border-bottom: 1px solid #f5f5f5;
+
 }
 
 .section_title{
@@ -240,7 +257,7 @@ header nav ul .selected{
 .services .services_list ul li{
     width: 212px;
     float: left;
-    margin-right: 40px;
+    margin-left: 60px;
 }
 
 .services .services_list ul li:last-child{
@@ -309,13 +326,12 @@ header nav ul .selected{
 
 .portfolio-item {
   font-family: "raleway-regular", arial;
-  font-size: 14px;
-  letter-spacing: .5px;
-  float: left;
+  font-size: 20px;
+    float: left;
   margin-right: 3.5%;
   width: 31%;
   margin-bottom: 50px;
-  background: white;
+  background: black;
 }
 
 .services-wrap,
@@ -353,8 +369,9 @@ header nav ul .selected{
 
 
 form{
+  width: 1100px;
   margin:0 auto;
-  max-width:60%;
+  max-width:50%;
   box-sizing:border-box;
   padding:40px;
   border-radius:5px;
@@ -362,7 +379,7 @@ form{
 }
 /* Стили полей ввода */
 .textbox{
-  height:50px;
+  height:40px;
   width:100%;
   border-radius:5px;
   border:rgba(0,0,0,.3) 2px solid;
@@ -376,7 +393,7 @@ form{
 .textbox:focus{
   outline:none;
    border:rgba(24,149,215,1) 2px solid;
-   color:rgba(24,149,215,1);
+   color: #eee;
 }
 /* Стили текстового поля */
 .message{
@@ -404,96 +421,18 @@ form{
   box-sizing:border-box;
   padding:10px;
   background:#6d6d6d;
-  color:#FFF;
+  color:#eee;
   font-family: "raleway-bold", arial;
   font-size: 20px;
   font-weight:400;
   font-size: 16pt;
-  transition:background .4s;
   cursor:pointer;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  clients  */
-.clients{
-    padding: 100px 0;
+textarea {
+  resize: none;
 }
-
-.client_list ul{
-    list-style: none;
-}
-
-.client_list ul li{
-    float: left;
-    margin-right: 50px;
-}
-
-.client_list ul li:last-child{
-    margin-right: 0;
-}
-
-
-
-
-
-
-/*  call to action  */
-.cta{
-    width: 100%;
-    padding: 100px 0;
-    background: #fafafa;
-    text-align: center;
-}
-
-.cta .cta_title{
-    color: #5e5e5e;
-    font-family: "raleway-bold", arial;
-    font-size: 25px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 70px;
-}
-
-.cta a{
-    text-decoration: none;
-    padding: 20px 40px;
-    background-color: #ff4141;
-    color: #fff;
-    font-family: "raleway-regular", arial;
-    font-size: 18px;
-    letter-spacing: .5px;
-
-
-    border-radius: 2px;
-    -o-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-
-    transition:all .2s linear;
-    -o-transition:all .2s linear;
-    -moz-transition:all .2s linear;
-    -webkit-transition:all .2s linear;
-
-
-}
-
-.cta a:hover{
-    background: #f23131;
-}
-
 
 
 
@@ -501,7 +440,6 @@ form{
 
 /*  footer  */
 footer {
-
 padding: 100px 0;
 }
 
@@ -509,13 +447,13 @@ padding: 100px 0;
 
 footer .footer_links{
     width: 717px;
-    float: left;
+    margin: 0 auto;
 }
 
 footer .footer_links .columns{
     width: 212px;
     float: left;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 footer .footer_links .columns:last-child{
@@ -557,25 +495,23 @@ footer .footer_links ul li a:hover{
 footer .sm ul li a:before{
     content:"";
     display: inline-block;
-    width: 15px;
+    width: 48px;
     margin-right: 20px;
 }
 
 footer .sm ul li .facebook:before{
-    height: 14px;
-    background: url('../img/fb.png') no-repeat;
+    height: 48px;
+    background: url('../img/icon/fb.png') no-repeat;
+    background-color: white;
     vertical-align: middle;
 }
 
-footer .sm ul li .twitter:before{
-    height: 15px;
-    background: url('../img/twitter.png') no-repeat;
-    vertical-align: middle;
-}
 
-footer .sm ul li .google:before{
-    height: 14px;
-    background: url('../img/google.png') no-repeat;
+
+footer .sm ul li .insta:before{
+    height: 48px;
+    background: url('../img/icon/in.png') no-repeat;
+    background-color: white;
     vertical-align: middle;
 }
 
