@@ -81,6 +81,10 @@ h5, h6          { font-weight: bolder }
 /* body    */
 body {
     background-color: black;
+    background-image: url(../img/backgground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 
 
@@ -331,8 +335,11 @@ header .menu ul .selected{
   margin-right: 3.5%;
   width: 31%;
   margin-bottom: 50px;
-  background: black;
 }
+
+
+
+
 
 .services-wrap,
 .portfolio-wrap,
@@ -495,12 +502,12 @@ footer .footer_links ul li a:hover{
 footer .sm ul li a:before{
     content:"";
     display: inline-block;
-    width: 48px;
+    width: 32px;
     margin-right: 20px;
 }
 
 footer .sm ul li .facebook:before{
-    height: 48px;
+    height: 32px;
     background: url('../img/icon/fb.png') no-repeat;
     background-color: white;
     vertical-align: middle;
@@ -509,7 +516,7 @@ footer .sm ul li .facebook:before{
 
 
 footer .sm ul li .insta:before{
-    height: 48px;
+    height: 32px;
     background: url('../img/icon/in.png') no-repeat;
     background-color: white;
     vertical-align: middle;
