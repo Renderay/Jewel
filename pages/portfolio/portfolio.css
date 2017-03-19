@@ -1,0 +1,198 @@
+
+/*  Fonts  */
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url('../fonts/Roboto-Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*  General CSS*/
+
+h1, h2, h3, h4, h5 ,h6{
+    color: #6d6d6d;
+    font-family: "Roboto", arial;
+    letter-spacing: 1px;
+}
+
+h1              { font-size: 2em;}
+h2              { font-size: 1.5em;}
+h3              { font-size: 1.17em;}
+h5              { font-size: .83em;}
+h6              { font-size: .75em;}
+h1, h2, h3, h4,
+h5, h6          { font-weight: bolder }
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.container{
+  display: block;
+  text-align: center;
+    width: 1100px;;
+    margin: 0 auto;
+    margin-top: 30
+}
+
+
+/* body    */
+body {
+    background-color: black;
+    background-image: url(img/backgground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+
+
+/*  header  */
+header{
+    width: 100%;
+    height: 90px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  footer  */
+footer {
+padding: 100px 0;
+}
+
+
+
+footer .footer_links{
+    width: 717px;
+    margin: 0 auto;
+}
+
+footer .footer_links .columns{
+    width: 212px;
+    float: left;
+    margin-right: 20px;
+}
+
+footer .footer_links .columns:last-child{
+    margin-right: 0;
+}
+
+footer .footer_links .columns_title{
+    color: #5e5e5e;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+footer .footer_links ul li{
+    list-style: none;
+    display: block;
+    margin-bottom: 30px;
+}
+
+footer .footer_links ul li a{
+    text-decoration: none;
+    color: #8c8b8b;
+    font-family: "Roboto";
+    font-size: 14px;
+    letter-spacing: .5px;
+
+    transition:all .2s linear;
+    -o-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+}
+
+footer .footer_links ul li a:hover{
+    color: #3c3c3c;
+}
+
+footer .sm ul li a:before{
+    content:"";
+    display: inline-block;
+    width: 32px;
+    margin-right: 20px;
+}
+
+footer .sm ul li .facebook:before{
+    height: 32px;
+    background: url('img/fb.png') no-repeat;
+    background-color: white;
+    vertical-align: middle;
+}
+
+
+
+footer .sm ul li .insta:before{
+    height: 32px;
+    background: url('img/in.png') no-repeat;
+    background-color: white;
+    vertical-align: middle;
+}
+
+
+footer .address p{
+    color: #8c8b8b;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-bottom: 30px;
+    letter-spacing: .5px;
+}
+
+footer .address .phone{
+    display: block;
+    font-family: "Roboto";
+    font-weight: bold;
+}

@@ -516,7 +516,7 @@ footer .sm ul li .insta:before{
 
 footer .address p{
     color: #8c8b8b;
-    font-family: "raleway-regular";
+    font-family: "Roboto";
     font-size: 14px;
     margin-bottom: 30px;
     letter-spacing: .5px;
@@ -524,6 +524,6 @@ footer .address p{
 
 footer .address .phone{
     display: block;
-    font-family: "raleway-bold";
+    font-family: "Roboto";
     font-weight: bold;
 }
