@@ -26,10 +26,6 @@
 }
 
 
-
-
-
-
 /*  General CSS*/
 
 h1, h2, h3, h4, h5 ,h6{
@@ -72,9 +68,6 @@ h5, h6          { font-weight: bolder }
 body {
     background-color: black;
     background-image: url(../img/backgground.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
 }
 
 
