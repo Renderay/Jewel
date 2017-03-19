@@ -1,12 +1,17 @@
 
 /*  Fonts  */
 @font-face {
-    font-family: 'raleway-regular';
-    src: url('../fonts/raleway-regular.eot');
-    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-regular.woff') format('woff'),
-         url('../fonts/raleway-regular.ttf') format('truetype'),
-         url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -14,29 +19,14 @@
 
 
 @font-face {
-    font-family: 'raleway-bold';
-    src: url('../fonts/raleway-bold.eot');
-    src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-bold.woff') format('woff'),
-         url('../fonts/raleway-bold.ttf') format('truetype'),
-         url('../fonts/raleway-bold.svg#ralewaybold') format('svg');
+    font-family: 'Roboto-Italic';
+    src: url('../fonts/Roboto-Italic.ttf');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
-@font-face {
-    font-family: 'raleway-semibold';
-    src: url('../fonts/raleway-semibold.eot');
-    src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-semibold.woff') format('woff'),
-         url('../fonts/raleway-semibold.ttf') format('truetype'),
-         url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
 
 
 
@@ -44,7 +34,7 @@
 
 h1, h2, h3, h4, h5 ,h6{
     color: #6d6d6d;
-    font-family: "raleway-regular", arial;
+    font-family: "Roboto", arial;
     letter-spacing: 1px;
 }
 
@@ -104,6 +94,7 @@ margin-top: 37px;
 font-size: 40px;
 color: white;
 letter-spacing: 5px;
+  font-family: 'Roboto-Bold';
 }
 
 header .menu{
@@ -124,7 +115,7 @@ header .menu ul li{
 header .menu ul li a{
     text-decoration: none;
     color: #bbbbbb;
-    font-family: "raleway-regular", arial;
+    font-family: "Roboto";
     font-size: 14px;
     letter-spacing: .5px;
 
@@ -171,7 +162,7 @@ header .menu ul .selected{
     top: 50%;
     color: #5a5a5a;
     text-align: center;
-    font-family: "raleway-bold", arial;
+    font-family: "Roboto";
     font-size: 30px;
     color: #fff;
     font-weight: bold;
@@ -237,7 +228,7 @@ header .menu ul .selected{
 
 .section_title h2{
     color: #5e5e5e;
-    font-family: "raleway-bold", arial;
+    font-family: "Roboto";
     font-size: 50px;
     font-weight: bold;
     margin: 0 0 40px 0;
@@ -270,7 +261,7 @@ header .menu ul .selected{
 
 .services .services_list h3{
     color: #5e5e5e;
-    font-family: "raleway-bold", arial;
+    font-family: "Roboto";
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 40px;
@@ -278,7 +269,7 @@ header .menu ul .selected{
 
 .services .services_list p{
     color: #8c8b8b;
-    font-family: "raleway-regular";
+    font-family: "Roboto";
     font-size: 14px;
     margin-bottom: 30px;
     line-height: 24px;
@@ -288,7 +279,7 @@ header .menu ul .selected{
 .services .services_list a{
     text-decoration: none;
     color: #6c6c6c;
-    font-family: "raleway-regular";
+    font-family: "Roboto";
     font-size: 13px;
     letter-spacing: .5px;
 }
@@ -312,7 +303,7 @@ header .menu ul .selected{
 .projects .section_title .details{
     text-decoration: none;
     color: #6d6d6d;
-    font-family: "raleway-regular", arial;
+    font-family: "Roboto";
     font-size: 14px;
     letter-spacing: .5px;
 }
@@ -329,7 +320,7 @@ header .menu ul .selected{
 
 
 .portfolio-item {
-  font-family: "raleway-regular", arial;
+  font-family: "Roboto";
   font-size: 20px;
     float: left;
   margin-right: 3.5%;
@@ -391,7 +382,7 @@ form{
   border-radius:5px;
   border:rgba(0,0,0,.3) 2px solid;
   box-sizing:border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto';
   font-size:18px;
   padding:10px;
   margin-bottom:30px;
@@ -410,7 +401,7 @@ form{
     border:rgba(0,0,0,.3) 2px solid;
     box-sizing:border-box;
     -moz-border-radius: 3px;
-    font-family: "raleway-bold", arial;
+    font-family: "Roboto";
     font-size: 20px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -429,7 +420,7 @@ form{
   padding:10px;
   background:#6d6d6d;
   color:#eee;
-  font-family: "raleway-bold", arial;
+  font-family: "Roboto";
   font-size: 20px;
   font-weight:400;
   font-size: 16pt;
@@ -469,7 +460,7 @@ footer .footer_links .columns:last-child{
 
 footer .footer_links .columns_title{
     color: #5e5e5e;
-    font-family: "raleway-bold", arial;
+    font-family: "Roboto";
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 50px;
@@ -485,7 +476,7 @@ footer .footer_links ul li{
 footer .footer_links ul li a{
     text-decoration: none;
     color: #8c8b8b;
-    font-family: "raleway-regular", arial;
+    font-family: "Roboto";
     font-size: 14px;
     letter-spacing: .5px;
 
@@ -525,7 +516,7 @@ footer .sm ul li .insta:before{
 
 footer .address p{
     color: #8c8b8b;
-    font-family: "raleway-regular", arial;
+    font-family: "raleway-regular";
     font-size: 14px;
     margin-bottom: 30px;
     letter-spacing: .5px;
@@ -533,6 +524,6 @@ footer .address p{
 
 footer .address .phone{
     display: block;
-    font-family: "raleway-bold", arial;
+    font-family: "raleway-bold";
     font-weight: bold;
 }
