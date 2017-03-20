@@ -28,19 +28,25 @@
 
 /*  General CSS*/
 
-h1, h2, h3, h4, h5 ,h6{
-    color: #6d6d6d;
-    font-family: "Roboto", arial;
+h1, h2, h3, h4, h5 ,h6, {
+
+    font-family: "Roboto";
     letter-spacing: 1px;
 }
 
-h1              { font-size: 2em;}
-h2              { font-size: 1.5em;}
-h3              { font-size: 1.17em;}
-h5              { font-size: .83em;}
-h6              { font-size: .75em;}
-h1, h2, h3, h4,
-h5, h6          { font-weight: bolder }
+
+h2 {
+   font-size: 50px;
+   font-family: "Roboto";
+ }
+
+
+h5 {
+  font-size: 20px;
+   font-family: "Roboto";
+}
+
+
 
 .clearfix:before,
 .clearfix:after {
@@ -128,9 +134,9 @@ footer .footer_links .columns:last-child{
 }
 
 footer .footer_links .columns_title{
-    color: #5e5e5e;
+    color: #bbb;
     font-family: "Roboto";
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 50px;
 }
@@ -144,9 +150,9 @@ footer .footer_links ul li{
 
 footer .footer_links ul li a{
     text-decoration: none;
-    color: #8c8b8b;
+    color: #bbb;
     font-family: "Roboto";
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: .5px;
 
     transition:all .2s linear;
@@ -156,7 +162,7 @@ footer .footer_links ul li a{
 }
 
 footer .footer_links ul li a:hover{
-    color: #3c3c3c;
+    color: #bbb;
 }
 
 footer .sm ul li a:before{
@@ -184,9 +190,9 @@ footer .sm ul li .insta:before{
 
 
 footer .address p{
-    color: #8c8b8b;
+    color: #bbb;
     font-family: "Roboto";
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 30px;
     letter-spacing: .5px;
 }

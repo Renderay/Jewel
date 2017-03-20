@@ -5,7 +5,6 @@
   src: url('../fonts/Roboto-Regular.ttf');
   font-weight: normal;
   font-style: normal;
-
 }
 
 
@@ -14,7 +13,6 @@
     src: url('../fonts/Roboto-Bold.ttf');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -25,22 +23,40 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'RobotoSlab-Light';
+    src: url('../fonts/RobotoSlab-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoSlab-Thin';
+    src: url('../fonts/RobotoSlab-Thin.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*  General CSS*/
 
-h1, h2, h3, h4, h5 ,h6{
-    color: #6d6d6d;
-    font-family: "Roboto", arial;
+h1, h2, h3, h4, h5 ,h6, {
+
+    font-family: "Roboto";
     letter-spacing: 1px;
 }
 
-h1              { font-size: 2em;}
-h2              { font-size: 1.5em;}
-h3              { font-size: 1.17em;}
-h5              { font-size: .83em;}
-h6              { font-size: .75em;}
-h1, h2, h3, h4,
-h5, h6          { font-weight: bolder }
+
+h2 {
+   font-size: 50px;
+   font-family: "Roboto";
+ }
+
+
+h5 {
+  font-size: 20px;
+   font-family: "Roboto";
+}
+
 
 .clearfix:before,
 .clearfix:after {
@@ -60,57 +76,72 @@ h5, h6          { font-weight: bolder }
   text-align: center;
     width: 1100px;;
     margin: 0 auto;
-    margin-top: 30
+    margin-top: 30px;
+    color: #bbb;
 }
+
+
+
+
 
 
 /* body    */
 body {
     background-color: black;
     background-image: url(../img/backgground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
-
-
 
 /*  header  */
 header{
-    width: 100%;
-    height: 90px;
-    margin-top: 30px;
+width: 100%;
+height: 430px;
+margin-top: 30px;
+background-color: black;
 }
 
-
-
+.trio {
+width:500px;
+margin: 0 auto;
+}
 
 .companyName {
-margin-top: 37px;
-font-size: 40px;
-color: white;
-letter-spacing: 5px;
-  font-family: 'Roboto-Bold';
-}
-
-header .menu{
-  display: block;
-  width: 500px;
+width: 333px;
+padding-top: 30px;
 margin: 0 auto;
-margin-top: 60px;
-
+color: #fff;
+letter-spacing: 5px;
+font-family: 'Roboto';
 }
 
-header .menu ul li{
+.companyName p {
+font-size: 50px;
+font-family: 'Roboto';
+}
+
+header .menu {
+display: block;
+width: 500px;
+height: 50px;
+margin: 0 auto;
+margin-top: 70px;
+}
+
+header .menu ul li {
     list-style: none;
     float: left;
-    margin-left: 60px;
-    color: #bbbbbb;
+    margin-left: 40px;
+    color: #bbb;
 }
 
-header .menu ul li a{
+header .menu ul li a {
     text-decoration: none;
-    color: #bbbbbb;
+    color: #bbb;
     font-family: "Roboto";
-    font-size: 14px;
-    letter-spacing: .5px;
+    font-size: 20px;
+    letter-spacing: .4px;
 
     transition:all .2s linear;
     -o-transition:all .2s linear;
@@ -128,13 +159,15 @@ header .menu ul .selected{
 
 
 
+
+
 /*  slider  */
 .slider_wrapper{
-  padding-top: 50px;
-    width: 100%;
-    height: auto;
-    position: relative;
-    overflow: hidden;
+
+width: 100%;
+height: auto;
+position: relative;
+overflow: hidden;
     /*background-color: #ededed;*/
 }
 
@@ -153,11 +186,11 @@ header .menu ul .selected{
     width: 100%;
     position: absolute;
     top: 50%;
-    color: #5a5a5a;
+    color: #bbb;
     text-align: center;
     font-family: "Roboto";
     font-size: 30px;
-    color: #fff;
+    color: #bbb;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 60px;
@@ -207,53 +240,51 @@ header .menu ul .selected{
 
 /*  services  */
 .services{
-    padding: 100px 0;
-    border-bottom: 1px solid #f5f5f5;
-
+padding: 100px 0;
+border-bottom: 1px solid #f5f5f5;
 }
 
 .section_title{
-    width: 333px;
-    height: auto;
-    margin-right: 50px;
-    float: left;
+width: 333px;
+height: auto;
+margin-right: 50px;
+float: left;
 }
 
 .section_title h2{
-    color: #5e5e5e;
-    font-family: "Roboto";
-    font-size: 50px;
-    font-weight: bold;
-    margin: 0 0 40px 0;
+color: #bbb;
+font-family: "Roboto";
+font-size: 45px;
+margin: 0 0 40px 0;
 }
 
 .services h2,
 .services h3{
-    margin: 0;
+margin: 0;
 }
 
 
 .services .services_list{
-    width: 717px;
-    float: right;
+width: 717px;
+float: right;
 }
 
 .services .services_list ul{
-    list-style: none;
+list-style: none;
 }
 
 .services .services_list ul li{
-    width: 212px;
-    float: left;
-    margin-left: 60px;
+width: 212px;
+float: left;
+margin-left: 60px;
 }
 
 .services .services_list ul li:last-child{
-    margin-right: 0;
+margin-right: 0;
 }
 
 .services .services_list h3{
-    color: #5e5e5e;
+    color: #bbb;
     font-family: "Roboto";
     font-size: 20px;
     font-weight: bold;
@@ -261,9 +292,9 @@ header .menu ul .selected{
 }
 
 .services .services_list p{
-    color: #8c8b8b;
+    color: #bbb;
     font-family: "Roboto";
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 30px;
     line-height: 24px;
     letter-spacing: .5px;
@@ -271,9 +302,9 @@ header .menu ul .selected{
 
 .services .services_list a{
     text-decoration: none;
-    color: #6c6c6c;
+    color: #bbb;
     font-family: "Roboto";
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: .5px;
 }
 
@@ -297,7 +328,7 @@ header .menu ul .selected{
     text-decoration: none;
     color: #6d6d6d;
     font-family: "Roboto";
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: .5px;
 }
 
@@ -306,16 +337,10 @@ header .menu ul .selected{
 }
 
 
-
-
-
-
-
-
 .portfolio-item {
   font-family: "Roboto";
   font-size: 20px;
-    float: left;
+  float: left;
   margin-right: 3.5%;
   width: 31%;
   margin-bottom: 50px;
@@ -368,6 +393,8 @@ form{
   border-radius:5px;
 
 }
+
+
 /* Стили полей ввода */
 .textbox{
   height:40px;
@@ -376,7 +403,7 @@ form{
   border:rgba(0,0,0,.3) 2px solid;
   box-sizing:border-box;
   font-family: 'Roboto';
-  font-size:18px;
+  font-size:20px;
   padding:10px;
   margin-bottom:30px;
 }
@@ -386,6 +413,9 @@ form{
    border:rgba(24,149,215,1) 2px solid;
    color: #eee;
 }
+
+
+
 /* Стили текстового поля */
 .message{
     background: rgba(255, 255, 255, 0.4);
@@ -452,9 +482,9 @@ footer .footer_links .columns:last-child{
 }
 
 footer .footer_links .columns_title{
-    color: #5e5e5e;
+    color: #bbb;
     font-family: "Roboto";
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 50px;
 }
@@ -468,9 +498,9 @@ footer .footer_links ul li{
 
 footer .footer_links ul li a{
     text-decoration: none;
-    color: #8c8b8b;
+    color: #bbb;
     font-family: "Roboto";
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: .5px;
 
     transition:all .2s linear;
@@ -480,7 +510,7 @@ footer .footer_links ul li a{
 }
 
 footer .footer_links ul li a:hover{
-    color: #3c3c3c;
+    color: #bbb;
 }
 
 footer .sm ul li a:before{
@@ -508,9 +538,9 @@ footer .sm ul li .insta:before{
 
 
 footer .address p{
-    color: #8c8b8b;
+    color: #bbb;
     font-family: "Roboto";
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 30px;
     letter-spacing: .5px;
 }
