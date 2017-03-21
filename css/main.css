@@ -108,18 +108,14 @@ margin: 0 auto;
 }
 
 .companyName {
-width: 333px;
+width: 280px;
 padding-top: 30px;
 margin: 0 auto;
-color: #fff;
-letter-spacing: 5px;
-font-family: 'Roboto';
 }
 
-.companyName p {
-font-size: 50px;
-font-family: 'Roboto';
-}
+
+
+
 
 header .menu {
 display: block;
