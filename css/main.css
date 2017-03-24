@@ -378,7 +378,7 @@ margin-right: 0;
 
 
 
-
+/* Стили полей ввода */
 
 form{
   width: 1100px;
@@ -387,11 +387,10 @@ form{
   box-sizing:border-box;
   padding:40px;
   border-radius:5px;
-
 }
 
 
-/* Стили полей ввода */
+
 .textbox{
   height:40px;
   width:100%;
@@ -445,13 +444,6 @@ form{
   font-size: 16pt;
   cursor:pointer;
 }
-
-
-textarea {
-  resize: none;
-}
-
-
 
 
 
