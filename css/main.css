@@ -446,3 +446,219 @@ footer .address .phone{
     font-family: "Roboto";
     font-weight: bold;
 }
+
+
+
+
+/* Smartphones small (вертикальная и горизонтальная ориентация)  */
+@media screen and (min-width: 240px) and (max-width : 320px) {
+
+body {
+background-image: url(../img/backgground240.jpg);
+}
+
+.companyName {
+max-width: 240px;
+}
+
+
+header {
+height: 500px;
+}
+
+header .menu {
+margin-left: 50px;
+}
+
+header .menu ul li {
+list-style: none;
+float: left;
+margin-bottom: 20px;
+padding: 0;
+}
+
+/*  services  */
+.services{
+padding: 10px 0;
+}
+
+
+
+
+.section_title{
+width: 240px;
+margin: 0 auto;
+height: auto;
+margin-right: 50px;
+}
+
+.section_title h2{
+color: #bbb;
+font-family: "Roboto";
+font-size: 30px;
+margin-bottom: 30px;
+margin-left: 45px;
+}
+
+
+
+.services .services_list{
+width: 200px;
+float: left;
+
+}
+
+.services .services_list ul{
+list-style: none;
+margin-left: -15px;
+}
+
+.services .services_list ul li{
+width: 200px;
+text-align: center;
+margin-top: 20px;
+}
+
+.services .services_list h3{
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.services .services_list p{
+font-size: 15px;
+margin-bottom: 10px;
+line-height: 24px;
+letter-spacing: .5px;
+}
+
+.services .services_list a{
+font-size: 10px;
+letter-spacing: .5px;
+}
+
+form{
+  width: 100%;
+  margin:0 auto;
+  max-width:90%;
+  box-sizing:border-box;
+  padding:50px;
+  border-radius:5px;
+}
+
+.textbox{
+  height:30px;
+  width:100%;
+  border:rgba(0,0,0,.3) 1px solid;
+  font-size:15px;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+/* Базовые стили кнопки */
+.button{
+  height:30px;
+  border-radius:3px;
+  font-size: 15px;
+  font-weight:100;
+  font-size: 15px;
+  cursor:pointer;
+  vertical-align: middle;
+    padding:5px;
+}
+
+
+/*  footer  */
+
+footer .footer_links{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+margin-left: 40px;
+}
+
+footer .footer_links .columns{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+footer .footer_links .columns_title{
+font-size: 20px;
+margin-bottom: 50px;
+}
+
+
+footer .footer_links ul li{
+margin-bottom: 10px;
+}
+
+footer .footer_links ul li a{
+font-size: 15px;
+margin-bottom: 20px;
+}
+
+
+footer .address p{
+font-size: 15px;
+margin-bottom: 20px;
+}
+
+}
+
+
+
+/* Smartphones (вертикальная и горизонтальная ориентация)  */
+@media screen and (min-width: 320px) and (max-width : 480px) {
+
+body {
+background-image: url(../img/backgground320.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* tablet */
+@media screen and  (min-width: 480px) and (max-width : 768px) {
+body {
+background-image: url(../img/backgground480.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* iPad in portrait & landscape */
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
+body {
+background-image: url(../img/backgground768.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+}
