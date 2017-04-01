@@ -72,28 +72,38 @@ text-align: center;
 
 .companyName {
 width:100%;
-max-width: 280px;
-padding-top: 30px;
+max-width: 330px;
+padding-top: 50px;
 margin: 0 auto;
 }
 
-
-
 header .menu {
 display: block;
-max-width: 500px;
+width: 570px;
 height: 50px;
 margin: 0 auto;
 margin-top: 70px;
 }
 
 header .menu ul li {
-    list-style: none;
-    float: left;
-    margin-left: 50px;
-    margin-right: 35px;
-    color: #bbb;
+list-style: none;
+float: left;
+color: #bbb;
+margin-right: 145px;
+margin-left: 0px;
 }
+
+
+header .menu ul li:first-child {
+margin-left: 0;
+}
+
+
+header .menu ul li:last-child {
+margin-right: 0;
+}
+
+
 
 header .menu ul li a {
     text-decoration: none;
@@ -114,13 +124,9 @@ header .menu ul .selected{
 }
 
 
-.onas {
-padding-left: 10px;
-}
-
 .logo img {
-width: 166px;
-height: 166px;
+width: 170px;
+height: 170px;
 }
 
 
@@ -461,6 +467,12 @@ body {
 background-image: url(../img/backgground240.jpg);
 }
 
+.logo img {
+width: 166px;
+height: 166px;
+}
+
+
 .companyName {
 max-width: 240px;
 }
@@ -607,7 +619,6 @@ footer .address p{
 font-size: 15px;
 margin-bottom: 20px;
 }
-
 }
 
 
@@ -625,7 +636,10 @@ min-width: 280px;
 margin-bottom: 30px;
 }
 
-
+.logo img {
+width: 166px;
+height: 166px;
+}
 
 header {
 height: 400px;
@@ -785,6 +799,11 @@ min-width: 280px;
 margin-bottom: 30px;
 }
 
+.logo img {
+width: 166px;
+height: 166px;
+}
+
 
 
 header {
@@ -928,14 +947,6 @@ footer .address p{
 font-size: 15px;
 margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
 }
 
 
@@ -944,15 +955,4 @@ margin-bottom: 20px;
 body {
 background-image: url(../img/backgground768.jpg);
 }
-
-
-
-
-
-
-
-
-
-
-
 }
