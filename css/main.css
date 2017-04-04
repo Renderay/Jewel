@@ -36,23 +36,23 @@
 }
 
 .container{
-  display: block;
-  text-align: center;
-    max-width: 1100px;
-    margin: 0 auto;
-    margin-top: 30px;
-    color: #bbb;
+display: block;
+text-align: center;
+max-width: 1100px;
+margin: 0 auto;
+margin-top: 10px;
+color: #bbb;
 }
 
 
 
 /* body    */
 body {
-    background-color: black;
-    background-image: url(../img/backgground.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+background-color: black;
+background-image: url(../img/backgground.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
 }
 
 /*  header  */
@@ -64,7 +64,7 @@ background-color: black;
 }
 
 .trio {
-  width:100%;
+width:100%;
 max-width:500px;
 margin: 0 auto;
 text-align: center;
@@ -166,7 +166,7 @@ margin: 0 auto;
 /*  services  */
 .services{
   width: 100%;
-padding: 100px 0;
+padding-top: 100px ;
 border-bottom: 0;
 }
 
@@ -176,6 +176,7 @@ border-bottom: 0;
 width: 300px;
 height: auto;
 margin-right: 50px;
+margin-left: 30px;
 float: left;
 }
 
@@ -277,6 +278,7 @@ form{
   font-size:20px;
   padding:10px;
   margin-bottom:30px;
+    text-align: center;
 }
 .message:focus,
 .textbox:focus{
@@ -446,7 +448,7 @@ background-image: url(../img/backgground768.jpg);
 
 /*  services  */
 .services{
-padding: 80px 0;
+padding-top: 70px;
 border-bottom: 0;
 margin-left: 5px;
 margin-right: 5px;
@@ -491,6 +493,12 @@ box-sizing:border-box;
 padding:40px;
 border-radius:5px;
 }
+
+footer .footer_links ul li{
+    list-style: none;
+    display: block;
+    margin-bottom: 10px;
+}
 }
 
 
@@ -534,7 +542,7 @@ height: 120px;
 
 /*  services  */
 .services{
-padding: 80px 0;
+padding-top: 60px;
 border-bottom: 0;
 margin-left: 5px;
 margin-right: 5px;
@@ -589,9 +597,32 @@ font-size: 15px;
     letter-spacing: .5px;
 }
 
+form{
+width: 100%;
+margin:0 auto;
+max-width:50%;
+box-sizing:border-box;
+padding:40px;
+border-radius:5px;
+}
+
+.textbox{
+height:20px;
+font-size:13px;
+padding:10px;
+margin-bottom:20px;
+text-align: center;
+}
 
 
-
+/* Базовые стили кнопки */
+.button{
+  height:30px;
+    font-size: 18px;
+  font-weight:300;
+  font-size: 13px;
+  cursor:pointer;
+}
 /*  footer  */
 footer {
 padding: 50px 0;
@@ -645,7 +676,7 @@ footer .footer_links .columns_title{
 footer .footer_links ul li{
     list-style: none;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 
@@ -674,7 +705,7 @@ background-image: url(../img/backgground320.jpg);
 /*  header  */
 header{
 width: 100%;
-height: 350px;
+height: 250px;
 margin-top: 30px;
 background-color: black;
 }
@@ -688,12 +719,10 @@ text-align: center;
 
 .companyName {
 width:100%;
-max-width: 260px;
-padding-top: 40px;
+max-width: 240px;
+padding-top: 30px;
 margin: 0 auto;
 }
-
-
 
 
 .logo img {
@@ -704,7 +733,7 @@ height: 120px;
 
 /*  services  */
 .services{
-padding: 50px 0;
+padding-top: 50px;
 border-bottom: 0;
 margin-left: 5px;
 margin-right: 5px;
@@ -732,7 +761,8 @@ margin: 0;
 
 
 .services .services_list{
-width: 90%;
+width: 100%;
+max-width: 95%;
 margin-top: 20px;
 margin-right: 5%;
 margin-right: 5%;
@@ -749,39 +779,37 @@ margin-left: 10px;
 }
 
 .services .services_list ul li p {
-font-size: 18px;
+font-size: 15px;
 }
 
 .services .services_list a{
-    text-decoration: none;
-    color: #bbb;
-    font-family: "Roboto";
-    font-size: 13px;
-    letter-spacing: .5px;
+text-decoration: none;
+font-size: 10px;
+letter-spacing: .5px;
 }
 
 form{
 width: 300px;
-max-width:60%;
+max-width:50%;
 padding:20px;
 }
 
 .textbox{
-height:30px;
-font-size:15px;
+height:20px;
+font-size:13px;
 padding:10px;
-margin-bottom:20px;
+margin-bottom:10px;
 text-align: center;
 }
 
 
 /* Базовые стили кнопки */
 .button{
-  height:30px;
-    font-size: 18px;
-  font-weight:300;
-  font-size: 13px;
-  cursor:pointer;
+vertical-align:text-top;
+height:25px;
+font-weight:300;
+font-size: 10px;
+cursor:pointer;
 }
 
 
@@ -828,14 +856,14 @@ float: left;
 footer .footer_links .columns_title{
 font-size: 18px;
 font-weight: bold;
-margin-bottom: 20px;
+margin-bottom: 18px;
 }
 
 
 footer .footer_links ul li{
 list-style: none;
 display: block;
-margin-bottom: 20px;
+margin-bottom: 10px;
 }
 
 
@@ -857,6 +885,10 @@ body {
 background-image: url(../img/backgground240.jpg);
 }
 
+.logo img {
+width: 100px;
+height: 100px;
+}
 
 .container{
 margin-top: 10px;
@@ -865,7 +897,7 @@ margin-top: 10px;
 /*  header  */
 header{
 width: 100%;
-height: 350px;
+height: 200px;
 margin-top: 10px;
 background-color: black;
 }
@@ -888,7 +920,7 @@ margin: 0 auto;
 
 /*  services  */
 .services{
-padding: 50px 0;
+padding-top: 50px;
 border-bottom: 0;
 margin-left: 5px;
 margin-right: 5px;
@@ -908,9 +940,10 @@ font-size: 27px;
 
 
 .services .services_list{
-width: 95%;
+width:240px;
+max-width: 95%;
 margin-top: 20px;
-margin-right: 5%;
+margin-left: 5%;
 margin-right: 5%;
 }
 
@@ -929,14 +962,14 @@ margin-left: 5%;
 }
 
 .services .services_list ul li p {
-font-size: 18px;
+font-size: 14px;
 }
 
 .services .services_list a{
     text-decoration: none;
     color: #bbb;
     font-family: "Roboto";
-    font-size: 13px;
+    font-size: 10px;
     letter-spacing: .5px;
 }
 
@@ -947,10 +980,10 @@ padding:20px;
 }
 
 .textbox{
-height:30px;
-font-size:15px;
+height:20px;
+font-size:8px;
 padding:10px;
-margin-bottom:20px;
+margin-bottom:10px;
 text-align: center;
 }
 
@@ -958,9 +991,8 @@ text-align: center;
 /* Базовые стили кнопки */
 .button{
 height:30px;
-font-size: 18px;
+font-size: 12px;
 font-weight:300;
-font-size: 13px;
 cursor:pointer;
 }
 
@@ -1003,16 +1035,16 @@ float: left;
 }
 
 footer .footer_links .columns_title{
-font-size: 15px;
+font-size: 12px;
 font-weight: bold;
-margin-bottom: 20px;
+margin-bottom: 10px;
 }
 
 
 footer .footer_links ul li{
 list-style: none;
 display: block;
-margin-bottom: 20px;
+margin-bottom: 10px;
 }
 
 
@@ -1020,7 +1052,7 @@ footer .footer_links ul li a{
 text-decoration: none;
 color: #bbb;
 font-family: "Roboto";
-font-size: 13px;
+font-size: 10px;
 letter-spacing: .5px;
 
 }
