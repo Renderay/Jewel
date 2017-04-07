@@ -78,14 +78,10 @@ margin: 0 auto;
 }
 
 
-
-
 .logo img {
 width: 170px;
 height: 170px;
 }
-
-
 
 
 /*  slider  */
@@ -157,20 +153,16 @@ margin: 0 auto;
 }
 
 .slider_wrapper .rslides_tabs .rslides_here a{
-    background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 1);
 }
-
-
 
 
 /*  services  */
 .services{
   width: 100%;
-padding-top: 100px ;
+padding-top: 50px ;
 border-bottom: 0;
 }
-
-
 
 .section_title{
 width: 300px;
@@ -327,7 +319,7 @@ form{
 
 /*  footer  */
 footer {
-padding: 100px 0;
+padding: 60px 0;
 }
 
 
@@ -350,12 +342,6 @@ height: 175px;
 margin-right: 12.5% ;
 }
 
-.ab {
-width: 25%;
-height: 175px;
-margin-right: 5% ;
-float: left;
-}
 
 .add {
 width: 25%;
@@ -448,7 +434,7 @@ background-image: url(../img/backgground768.jpg);
 
 /*  services  */
 .services{
-padding-top: 70px;
+padding-top: 50px;
 border-bottom: 0;
 margin-left: 5px;
 margin-right: 5px;
@@ -492,6 +478,10 @@ max-width:50%;
 box-sizing:border-box;
 padding:40px;
 border-radius:5px;
+}
+
+footer {
+padding: 50px 0;
 }
 
 footer .footer_links ul li{
@@ -542,7 +532,7 @@ height: 120px;
 
 /*  services  */
 .services{
-padding-top: 60px;
+padding-top: 30px;
 border-bottom: 0;
 margin-left: 5px;
 margin-right: 5px;
@@ -625,7 +615,7 @@ text-align: center;
 }
 /*  footer  */
 footer {
-padding: 50px 0;
+padding: 20px 0;
 }
 
 footer .footer_links{
@@ -646,12 +636,6 @@ height: 175px;
 margin-right: 8%;
 }
 
-.ab {
-width: 25%;
-height: 175px;
-margin-right: 8% ;
-float: left;
-}
 
 .add {
 width: 25%;
@@ -733,7 +717,7 @@ height: 120px;
 
 /*  services  */
 .services{
-padding-top: 50px;
+padding-top: 20px;
 border-bottom: 0;
 margin-left: 5px;
 margin-right: 5px;
@@ -817,7 +801,7 @@ cursor:pointer;
 
 /*  footer  */
 footer {
-padding: 30px 0;
+padding: 10px 0;
 }
 
 footer .footer_links{
@@ -839,12 +823,6 @@ margin-right: 5%;
 margin-left: 2%;
 }
 
-.ab {
-width: 27%;
-height: 175px;
-margin-right: 5% ;
-float: left;
-}
 
 .add {
 width: 27%;
@@ -920,7 +898,7 @@ margin: 0 auto;
 
 /*  services  */
 .services{
-padding-top: 50px;
+padding-top: 20px;
 border-bottom: 0;
 margin-left: 5px;
 margin-right: 5px;
@@ -998,7 +976,7 @@ cursor:pointer;
 
 /*  footer  */
 footer {
-padding: 30px 0;
+padding: 10px 0;
 }
 
 footer .footer_links{
@@ -1020,12 +998,6 @@ margin-right: 5%;
 margin-left: 2%;
 }
 
-.ab {
-width: 27%;
-height: 175px;
-margin-right: 5% ;
-float: left;
-}
 
 .add {
 width: 27%;
