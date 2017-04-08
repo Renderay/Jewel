@@ -86,7 +86,7 @@ height: 170px;
 
 /*  slider  */
 .slider_wrapper{
-  width: 1100px;
+width: 1100px;
 max-width: 100%;
 height: auto;
 position: relative;
@@ -96,87 +96,71 @@ margin: 0 auto;
 }
 
 #slides .slide{
-    max-width: 100%;
-    text-align: center;
-  }
+max-width: 100%;
+text-align: center;
+}
 
 #slides .slide img{
-    width: 100%;
-    height: auto;
+width: 100%;
+height: auto;
 }
 
 #slides .slide .caption{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    color: #bbb;
-    text-align: center;
-    font-family: "Roboto";
-    font-size: 30px;
-    color: #bbb;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 60px;
+width: 100%;
+position: absolute;
+top: 50%;
+color: #bbb;
+text-align: center;
+font-family: "Roboto";
+font-size: 30px;
+color: #bbb;
+font-weight: bold;
+text-transform: uppercase;
+line-height: 60px;
 
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+transform: translateY(-50%);
 }
 
 .slider_wrapper .rslides_tabs{
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    bottom: 80px;
-    z-index: 9999;
+width: 100%;
+position: absolute;
+text-align: center;
+bottom: 80px;
+z-index: 9999;
 }
 
 .slider_wrapper .rslides_tabs li{
-    list-style: none;
-    display: inline;
+list-style: none;
+display: inline;
 }
 
 .slider_wrapper .rslides_tabs li a{
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin-left: 15px;
-    background: rgba(255, 255, 255, .5);
-    text-indent: -999px;
-    overflow: hidden;
+display: inline-block;
+width: 12px;
+height: 12px;
+margin-left: 15px;
+background: rgba(255, 255, 255, .5);
+text-indent: -999px;
+overflow: hidden;
 
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -o-border-radius: 100px;
-    border-radius: 100px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+-o-border-radius: 100px;
+border-radius: 100px;
 }
 
 .slider_wrapper .rslides_tabs .rslides_here a{
-  background: rgba(255, 255, 255, 1);
+background: rgba(255, 255, 255, 1);
 }
 
 
 /*  services  */
 .services{
-  width: 100%;
-padding-top: 50px ;
+padding-top: 30px;
 border-bottom: 0;
-}
-
-.section_title{
-width: 300px;
-height: auto;
-margin-right: 50px;
-margin-left: 30px;
-float: left;
-}
-
-.section_title h2{
-color: #bbb;
-font-family: "Roboto";
-font-size: 45px;
-margin: 0 0 0 0;
 }
 
 .services h2,
@@ -186,9 +170,9 @@ margin: 0;
 
 
 .services .services_list{
-width: 60%;
-float: right;
-margin-right: 5%
+width: 100%;
+float: left;
+margin-right: 0;
 }
 
 .services .services_list ul{
@@ -196,9 +180,9 @@ list-style: none;
 }
 
 .services .services_list ul li{
-width: 35%;
+width: 49%;
 float: left;
-margin-left: 40px;
+margin-left: 10px;
 }
 
 .services .services_list ul li:last-child{
@@ -208,257 +192,215 @@ margin-right: 0;
 .services .services_list h3{
     color: #bbb;
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 40px;
 }
 
 .services .services_list p{
-    color: #bbb;
-    font-family: "Roboto";
-    font-size: 20px;
-    margin-bottom: 30px;
-    line-height: 24px;
-    letter-spacing: .5px;
-}
-
-.services .services_list a{
-    text-decoration: none;
-    color: #bbb;
-    font-family: "Roboto";
-    font-size: 15px;
-    letter-spacing: .5px;
-}
-
-.services .services_list a .arrow{
-    margin-left: 5px;
-    font-size: 16px;
-}
-
-
-
-.services-wrap,
-.about-wrap,
-.team-wrap,
-#message {
-  padding-top: 70px;
-}
-
-
-
-
-/* Стили полей ввода */
-
-form{
-  width: 1100px;
-  margin:0 auto;
-  max-width:50%;
-  box-sizing:border-box;
-  padding:40px;
-  border-radius:5px;
-}
-
-
-
-.textbox{
-  height:40px;
-  width:100%;
-  border-radius:5px;
-  border:rgba(0,0,0,.3) 2px solid;
-  box-sizing:border-box;
-  font-family: 'Roboto';
-  font-size:20px;
-  padding:10px;
-  margin-bottom:30px;
-    text-align: center;
-}
-.message:focus,
-.textbox:focus{
-  outline:none;
-   border:rgba(24,149,215,1) 2px solid;
-   color: #eee;
-}
-
-
-
-/* Стили текстового поля */
-.message{
-    background: rgba(255, 255, 255, 0.4);
-    width:100%;
-    height: 120px;
-    border:rgba(0,0,0,.3) 2px solid;
-    box-sizing:border-box;
-    -moz-border-radius: 3px;
-    font-family: "Roboto";
-    font-size: 20px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    display:block;
-    padding:10px;
-    margin-bottom:30px;
-    overflow:hidden;
-}
-/* Базовые стили кнопки */
-.button{
-  height:50px;
-  width:100%;
-  border-radius:3px;
-  border:rgba(0,0,0,.3) 0px solid;
-  box-sizing:border-box;
-  padding:10px;
-  background:#6d6d6d;
-  color:#eee;
-  font-family: "Roboto";
-  font-size: 20px;
-  font-weight:400;
-  font-size: 16pt;
-  cursor:pointer;
-}
-
-
-
-/*  footer  */
-footer {
-padding: 60px 0;
-}
-
-
-
-footer .footer_links{
-    width: 700px;
-    height: 200px;
-    margin: 0 auto;
-}
-
-footer .footer_links .columns{
-    width: 25%;
-  }
-
-
-.sm {
-float: left;
-width: 25%;
-height: 175px;
-margin-right: 12.5% ;
-}
-
-
-.add {
-width: 25%;
-height: 175px;
-margin-right:0 ;
-float: right;
-}
-
-footer .footer_links .columns:last-child{
-    margin-right: 0;
-}
-
-footer .footer_links .columns_title{
-    color: #bbb;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-
-footer .footer_links ul li{
-    list-style: none;
-    display: block;
-    margin-bottom: 30px;
-}
-
-
-footer .footer_links ul li a{
-    text-decoration: none;
-    color: #bbb;
-    font-family: "Roboto";
-    font-size: 20px;
-    letter-spacing: .5px;
-
-    transition:all .2s linear;
-    -o-transition:all .2s linear;
-    -moz-transition:all .2s linear;
-    -webkit-transition:all .2s linear;
-}
-
-footer .footer_links ul li a:hover{
-    color: #bbb;
-}
-
-footer .sm ul li a:before{
-    content:"";
-    display: inline-block;
-    width: 32px;
-    margin-right: 20px;
-}
-
-footer .sm ul li .facebook:before{
-    height: 32px;
-    background: url('../img/icon/fb.png') no-repeat;
-    background-color: white;
-    vertical-align: middle;
-}
-
-
-
-footer .sm ul li .insta:before{
-    height: 32px;
-    background: url('../img/icon/in.png') no-repeat;
-    background-color: white;
-    vertical-align: middle;
-}
-
-
-footer .address p{
 color: #bbb;
 font-family: "Roboto";
 font-size: 20px;
 margin-bottom: 30px;
+line-height: 24px;
 letter-spacing: .5px;
 }
 
-footer .address .phone{
-display: block;
+.services .services_list a{
+text-decoration: none;
+color: #bbb;
 font-family: "Roboto";
+font-size: 15px;
+letter-spacing: .5px;
+}
+
+.services .services_list a .arrow{
+margin-left: 5px;
+font-size: 16px;
+}
+
+.services-wrap,
+.about-wrap,
+.team-wrap,
+
+#message {
+padding-top: 70px;
+}
+
+/* Стили полей ввода */
+
+form{
+width: 100%;
+margin:0 auto;
+max-width:50%;
+box-sizing:border-box;
+padding:40px;
+border-radius:5px;
+}
+
+.textbox{
+height:40px;
+width:100%;
+border-radius:5px;
+border:rgba(0,0,0,.3) 2px solid;
+box-sizing:border-box;
+font-family: 'Roboto';
+font-size:20px;
+padding:10px;
+margin-bottom:30px;
+text-align: center;
+}
+
+
+.message:focus,
+.textbox:focus{
+outline:none;
+border:rgba(24,149,215,1) 2px solid;
+color: #eee;
+}
+
+/* Стили текстового поля */
+.message{
+background: rgba(255, 255, 255, 0.4);
+width:100%;
+height: 120px;
+border:rgba(0,0,0,.3) 2px solid;
+box-sizing:border-box;
+-moz-border-radius: 3px;
+font-family: "Roboto";
+font-size: 20px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+display:block;
+padding:10px;
+margin-bottom:30px;
+overflow:hidden;
+}
+/* Базовые стили кнопки */
+.button{
+height:50px;
+width:100%;
+border-radius:3px;
+border:rgba(0,0,0,.3) 0px solid;
+box-sizing:border-box;
+padding:10px;
+background:#6d6d6d;
+color:#eee;
+font-family: "Roboto";
+font-size: 20px;
+font-weight:400;
+font-size: 16pt;
+cursor:pointer;
+}
+
+
+footer {
+height: 150px;
+padding: 10px 0;
+margin-top: 30px;
+}
+
+footer .footer_links{
+max-width: 400px;
+height: 150px;
+margin: 0 auto;
+}
+
+.sm {
+width: 100%;
+height: 100px;
+margin: 0 auto;
+}
+
+
+footer .footer_links ul li{
+width: 45%;
+list-style: none;
+display: inline-block;
+margin-bottom: 30px;
+}
+
+footer .footer_links .columns{
+width: 25%;
+}
+
+footer .footer_links .columns:last-child{
+margin-right: 0;
+}
+
+footer .footer_links .columns_title{
+color: #bbb;
+font-family: "Roboto";
+font-size: 30px;
 font-weight: bold;
+margin-bottom: 50px;
+}
+
+
+footer .footer_links ul li a{
+text-decoration: none;
+color: #bbb;
+font-family: "Roboto";
+font-size: 20px;
+letter-spacing: .5px;
+
+transition:all .2s linear;
+-o-transition:all .2s linear;
+-moz-transition:all .2s linear;
+-webkit-transition:all .2s linear;
+}
+
+footer .footer_links ul li a:hover{
+color: #bbb;
+}
+
+footer .sm ul li a:before{
+content:"";
+display: inline-block;
+width: 32px;
+margin-right: 20px;
+}
+
+footer .sm ul li .facebook:before{
+height: 32px;
+background: url('../img/icon/fb.png') no-repeat;
+background-color: white;
+vertical-align: middle;
+}
+
+footer .sm ul li .insta:before{
+height: 32px;
+background: url('../img/icon/in.png') no-repeat;
+background-color: white;
+vertical-align: middle;
 }
 
 
 /* iPad in portrait & landscape */
 @media screen and  (min-width: 768px) and (max-width: 1024px) {
+
 body {
 background-image: url(../img/backgground768.jpg);
 }
 
 /*  services  */
 .services{
-padding-top: 50px;
+padding-top: 30px;
 border-bottom: 0;
 margin-left: 5px;
 margin-right: 5px;
 }
 
-.section_title{
-width: 30%;
-height: auto;
-margin-right: 10%;
-float: left;
-}
-
-.section_title h2{
-color: #bbb;
-font-family: "Roboto";
-font-size: 40px;
-margin: 0 0 0 0;
+.services h2,
+.services h3{
+margin: 0;
 }
 
 
 .services .services_list{
-width: 50%;
+width: 100%;
 float: left;
-margin-right: 1%
+margin: 0 auto;
 }
 
 .services .services_list ul{
@@ -466,10 +408,19 @@ list-style: none;
 }
 
 .services .services_list ul li{
-width: 40%;
+width: 45%;
 float: left;
-margin-left: 30px;
+margin-left: 10px;
 }
+
+.services .services_list h3{
+    color: #bbb;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
 
 form{
 width: 100%;
@@ -481,17 +432,46 @@ border-radius:5px;
 }
 
 footer {
-padding: 50px 0;
+height: 150px;
+padding: 10px 0;
+margin-top: 30px;
+}
+
+footer .footer_links{
+max-width: 400px;
+height: 150px;
+margin: 0 auto;
+}
+
+.sm {
+width: 100%;
+height: 100px;
+margin: 0 auto;
+}
+
+
+footer .footer_links .columns_title{
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 30px;
 }
 
 footer .footer_links ul li{
-    list-style: none;
-    display: block;
-    margin-bottom: 10px;
-}
+width: 45%;
+list-style: none;
+display: inline-block;
+margin-bottom: 10px;
 }
 
-
+footer .footer_links ul li a{
+text-decoration: none;
+text-align: center;
+color: #bbb;
+font-family: "Roboto";
+font-size: 15px;
+letter-spacing: .5px;
+}
+}
 
 
 /* tablet */
@@ -509,7 +489,7 @@ background-color: black;
 }
 
 .trio {
-  width:100%;
+width:100%;
 max-width:500px;
 margin: 0 auto;
 text-align: center;
@@ -538,21 +518,6 @@ margin-left: 5px;
 margin-right: 5px;
 }
 
-.section_title{
-width: 40%;
-height: auto;
-margin-left: 2%;
-margin-right: 2%;
-float: left;
-}
-
-.section_title h2{
-color: #bbb;
-font-family: "Roboto";
-font-size: 20px;
-margin: 0 0 0 0;
-}
-
 .services h2,
 .services h3{
 margin: 0;
@@ -560,9 +525,9 @@ margin: 0;
 
 
 .services .services_list{
-width: 50%;
+width: 100%;
 float: left;
-margin-right: 5%;
+margin-right: 0;
 }
 
 .services .services_list ul{
@@ -570,7 +535,7 @@ list-style: none;
 }
 
 .services .services_list ul li{
-width: 40%;
+width: 45%;
 float: left;
 margin-left: 10px;
 }
@@ -585,6 +550,15 @@ font-size: 15px;
     font-family: "Roboto";
     font-size: 10px;
     letter-spacing: .5px;
+}
+
+
+.services .services_list h3{
+    color: #bbb;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
 }
 
 form{
@@ -613,68 +587,48 @@ text-align: center;
   font-size: 13px;
   cursor:pointer;
 }
-/*  footer  */
+
+
+
 footer {
-padding: 20px 0;
+height: 150px;
+padding: 10px 0;
+margin-top: 30px;
 }
 
 footer .footer_links{
-  max-width: 470px;
-    height: 200px;
-    margin: 0 auto;
+max-width: 320px;
+height: 150px;
+margin: 0 auto;
 }
-
-footer .footer_links .columns{
-    width: 25%;
-  }
-
 
 .sm {
-float: left;
-width: 25%;
-height: 175px;
-margin-right: 8%;
+width: 100%;
+height: 100px;
+margin: 0 auto;
 }
 
-
-.add {
-width: 25%;
-height: 175px;
-margin-right:0 ;
-float: right;
-}
-
-footer .footer_links .columns:last-child{
-    margin-right: 0;
-}
 
 footer .footer_links .columns_title{
-    color: #bbb;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 30px;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 30px;
 }
-
 
 footer .footer_links ul li{
-    list-style: none;
-    display: block;
-    margin-bottom: 10px;
+width: 45%;
+list-style: none;
+display: inline-block;
+margin-bottom: 10px;
 }
 
-
 footer .footer_links ul li a{
-    text-decoration: none;
-    color: #bbb;
-    font-family: "Roboto";
-    font-size: 15px;
-    letter-spacing: .5px;
-
-    transition:all .2s linear;
-    -o-transition:all .2s linear;
-    -moz-transition:all .2s linear;
-    -webkit-transition:all .2s linear;
+text-decoration: none;
+text-align: center;
+color: #bbb;
+font-family: "Roboto";
+font-size: 13px;
+letter-spacing: .5px;
 }
 }
 
@@ -689,7 +643,7 @@ background-image: url(../img/backgground320.jpg);
 /*  header  */
 header{
 width: 100%;
-height: 250px;
+height: 240px;
 margin-top: 30px;
 background-color: black;
 }
@@ -708,12 +662,25 @@ padding-top: 30px;
 margin: 0 auto;
 }
 
-
 .logo img {
 width: 120px;
 height: 120px;
 }
 
+.slider_wrapper .rslides_tabs li a{
+display: inline-block;
+width: 0;
+height: 0;
+margin-left: 15px;
+background: rgba(255, 255, 255, .5);
+text-indent: -999px;
+overflow: hidden;
+
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+-o-border-radius: 100px;
+border-radius: 100px;
+}
 
 /*  services  */
 .services{
@@ -723,33 +690,15 @@ margin-left: 5px;
 margin-right: 5px;
 }
 
-.section_title{
-width: 70%;
-height: auto;
-margin-left: 15%;
-margin-bottom: 30px;
-float: left;
-}
-
-.section_title h2{
-color: #bbb;
-font-family: "Roboto";
-font-size: 30px;
-margin: 0 0 0 0;
-}
 
 .services h2,
 .services h3{
 margin: 0;
 }
 
-
 .services .services_list{
 width: 100%;
-max-width: 95%;
 margin-top: 20px;
-margin-right: 5%;
-margin-right: 5%;
 }
 
 .services .services_list ul{
@@ -772,23 +721,30 @@ font-size: 10px;
 letter-spacing: .5px;
 }
 
-form{
+.services .services_list h3{
+    color: #bbb;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+form {
 width: 300px;
 max-width:50%;
 padding:20px;
 }
 
-.textbox{
+.textbox {
 height:20px;
-font-size:13px;
+font-size:10px;
 padding:10px;
 margin-bottom:10px;
 text-align: center;
 }
 
-
 /* Базовые стили кнопки */
-.button{
+.button {
 vertical-align:text-top;
 height:25px;
 font-weight:300;
@@ -796,62 +752,45 @@ font-size: 10px;
 cursor:pointer;
 }
 
-
-
-
-/*  footer  */
 footer {
+height: 150px;
 padding: 10px 0;
+margin-top: 30px;
 }
 
 footer .footer_links{
-  max-width: 320px;
-    height: 200px;
-    margin: 0 auto;
+max-width: 320px;
+height: 150px;
+margin: 0 auto;
 }
-
-footer .footer_links .columns{
-    width: 25%;
-  }
-
 
 .sm {
-float: left;
-width: 27%;
-height: 175px;
-margin-right: 5%;
-margin-left: 2%;
+width: 100%;
+height: 100px;
+margin: 0 auto;
 }
 
-
-.add {
-width: 27%;
-height: 175px;
-margin-right:0 ;
-float: left;
-}
 
 footer .footer_links .columns_title{
-font-size: 18px;
+font-size: 20px;
 font-weight: bold;
-margin-bottom: 18px;
+margin-bottom: 30px;
 }
 
-
 footer .footer_links ul li{
+width: 45%;
 list-style: none;
-display: block;
+display: inline-block;
 margin-bottom: 10px;
 }
 
-
 footer .footer_links ul li a{
 text-decoration: none;
+text-align: center;
 color: #bbb;
 font-family: "Roboto";
 font-size: 13px;
 letter-spacing: .5px;
-
 }
 }
 
@@ -875,13 +814,13 @@ margin-top: 10px;
 /*  header  */
 header{
 width: 100%;
-height: 200px;
+height: 180px;
 margin-top: 10px;
 background-color: black;
 }
 
 .trio {
-  width:100%;
+width:100%;
 max-width:300px;
 margin: 0 auto;
 text-align: center;
@@ -894,7 +833,20 @@ padding-top: 20px;
 margin: 0 auto;
 }
 
+.slider_wrapper .rslides_tabs li a{
+display: inline-block;
+width: 0;
+height: 0;
+margin-left: 15px;
+background: rgba(255, 255, 255, .5);
+text-indent: -999px;
+overflow: hidden;
 
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+-o-border-radius: 100px;
+border-radius: 100px;
+}
 
 /*  services  */
 .services{
@@ -903,19 +855,6 @@ border-bottom: 0;
 margin-left: 5px;
 margin-right: 5px;
 }
-
-.section_title{
-width: 70%;
-height: auto;
-margin-left: 15%;
-margin-bottom: 30px;
-float: left;
-}
-
-.section_title h2{
-font-size: 27px;
-}
-
 
 .services .services_list{
 width:240px;
@@ -944,11 +883,19 @@ font-size: 14px;
 }
 
 .services .services_list a{
-    text-decoration: none;
+text-decoration: none;
+color: #bbb;
+font-family: "Roboto";
+font-size: 10px;
+letter-spacing: .5px;
+}
+
+.services .services_list h3{
     color: #bbb;
     font-family: "Roboto";
-    font-size: 10px;
-    letter-spacing: .5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
 }
 
 form{
@@ -965,7 +912,6 @@ margin-bottom:10px;
 text-align: center;
 }
 
-
 /* Базовые стили кнопки */
 .button{
 height:30px;
@@ -976,56 +922,42 @@ cursor:pointer;
 
 /*  footer  */
 footer {
+height: 150px;
 padding: 10px 0;
 }
 
 footer .footer_links{
 max-width: 240px;
-height: 200px;
+height: 100px;
 margin: 0 auto;
 }
 
-footer .footer_links .columns{
-width: 25%;
-}
-
-
 .sm {
-float: left;
-width: 27%;
-height: 175px;
-margin-right: 5%;
-margin-left: 2%;
+width: 100%;
+height: 100px;
+margin: 0 auto;
 }
 
-
-.add {
-width: 27%;
-height: 175px;
-margin-right:0 ;
-float: left;
-}
 
 footer .footer_links .columns_title{
 font-size: 12px;
 font-weight: bold;
-margin-bottom: 10px;
+margin-bottom: 30px;
 }
-
 
 footer .footer_links ul li{
+width: 45%;
 list-style: none;
-display: block;
+display: inline-block;
 margin-bottom: 10px;
 }
-
 
 footer .footer_links ul li a{
 text-decoration: none;
+text-align: center;
 color: #bbb;
 font-family: "Roboto";
 font-size: 10px;
 letter-spacing: .5px;
-
 }
 }
